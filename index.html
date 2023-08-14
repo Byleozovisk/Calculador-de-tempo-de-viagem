@@ -8,13 +8,36 @@
     <script src="script.js"></script>
 </head>
 
-<div>
-    <h1>Calcular tempo de viagem</h1>
-    <p>Qual é a distância da viagem em Km?</p>
-    <input type="text" id="Distancia" />
-    <p>Qual é a velocidade média esperada em Km/h?</p>
-    <input type="text" id="Velocidade" />
+
+<form class="form">
+
+    <div class="title">Calculadora de tempo de viagem</div>
+
+    <input type="text" placeholder="Qual é a distância da viagem em Km?" name="Distancia" class="input">
+    <input type="text" placeholder="Qual é a velocidade média esperada em Km/h?" name="velocidade" class="input">
+    
+      
+
     <button onclick="calcularTempo()">Calcular</button>
-</div>
+    
+</form>      
+
+<!--<form>
+
+    <div>
+        <h1>Calcular tempo de viagem</h1>
+
+        <input type="text" placeholder="Qual é a distância da viagem em Km?" name="Distancia" class="input">
+        <input type="text" placeholder="Qual é a velocidade média esperada em Km/h?" name="velocidade" class="input">
+
+
+
+
+
+
+         <button onclick="calcularTempo()">Calcular</button>
+    </div>
+
+</form>
 
 </html>
